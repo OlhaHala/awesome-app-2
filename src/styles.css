@@ -1,0 +1,66 @@
+body {
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+h5 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 25px;
+}
+button {
+  color: blue;
+}
+
+.container {
+  margin-top: 20px;
+}
+.card-1 {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 20px;
+}
+.sun {
+  font-size: 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+.indicators {
+  text-align: center;
+  margin: 0 auto;
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.degree {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+}
+.temper {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+}
+.hight {
+  font-size: 30px;
+}
+
+.headings {
+  text-align: center;
+  margin-top: 20px;
+}
+.forecast {
+  background: linear-gradient(
+    109.6deg,
+    rgb(255, 219, 47) 11.2%,
+    rgb(244, 253, 0) 100.2%
+  );
+}
+#sky-description {
+  font-size: 40px;
+}
+#celsius {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+}
