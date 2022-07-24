@@ -50,7 +50,7 @@ function showTemp(response) {
   let temp = document.querySelector("#temper");
   temp.innerHTML = Math.round(response.data.main.temp);
   let text = document.querySelector("#main-city");
-  text.innerHTML = response.data;
+  text.innerHTML = response.data.name;
   let skyS = document.querySelector("#sky-description");
   skyS.innerHTML = `${response.data.weather[0].description}`;
   let humidity = document.querySelector("#humidity");
@@ -62,7 +62,7 @@ function showTemp(response) {
 function showWeather(response) {
   let weather = Math.round(response.data.main.temp);
   let text = document.querySelector("#main-city");
-  text.innerHTML = `Odessa(${response.data.name})`;
+  text.innerHTML = `Odessa`;
   let temp = document.querySelector("#temper");
   temp.innerHTML = weather;
   let skyS = document.querySelector("#sky-description");
