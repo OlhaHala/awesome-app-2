@@ -50,7 +50,7 @@ function showTemp(response) {
   let temp = document.querySelector("#temper");
   temp.innerHTML = Math.round(response.data.main.temp);
   let text = document.querySelector("#main-city");
-  text.innerHTML = response.data.name;
+  text.innerHTML = response.data;
   let skyS = document.querySelector("#sky-description");
   skyS.innerHTML = `${response.data.weather[0].description}`;
   let humidity = document.querySelector("#humidity");
