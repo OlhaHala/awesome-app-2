@@ -9,13 +9,21 @@ h5 {
 button {
   color: blue;
 }
-
-.container {
-  margin-top: 20px;
+small {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
+.weather-app {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid;
+}
+
 .card-1 {
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-  border-radius: 20px;
 }
 .sun {
   font-size: 100px;

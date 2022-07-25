@@ -14,99 +14,101 @@
   </head>
   <body>
     <div class="container">
-      <div class="card-1">
-        <div class="card-body-main">
-          <form class="row g-3" id="city-search">
-            <div class="col-auto">
-              <input
-                id="city-input"
-                type="text"
-                class="form-control"
-                placeholder="Enter your city"
-                autofocus="on"
-                autocomplete="off"
-              />
-            </div>
-            <div class="col-auto">
-              <button type="submit" class="btn btn-primary">Search</button>
-            </div>
-            <div class="col-auto">
-              <button type="button" class="btn btn-success">
-                Current location
-              </button>
-            </div>
-          </form>
-          <div class="row">
-            <div class="col">
-              <p id="sun"></p>
-              <br />
+      <div class="weather-app">
+        <div class="card-1">
+          <div class="card-body-main">
+            <form class="row g-3" id="city-search">
+              <div class="col-auto">
+                <input
+                  id="city-input"
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your city"
+                  autofocus="on"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary">Search</button>
+              </div>
+              <div class="col-auto">
+                <button type="button" class="btn btn-success">
+                  Current location
+                </button>
+              </div>
+            </form>
+            <div class="row">
+              <div class="col">
+                <p id="sun"></p>
+                <br />
 
-              <ul class="indicators">
-                <li>💧 Humidity - <a id="humidity"></a></li>
-                <li>💨 Wind - <a id="speed-description"></a></li>
-                <li></li>
-              </ul>
-            </div>
-            <div class="col">
-              <div class="degree">
-                <p class="sky-description" id="sky-description"></p>
-                <span id="temper" class="temper"></span
-                ><span class="hight"><a href="#" id="celsius"> °C</a> </span>
+                <ul class="indicators">
+                  <li>💧 Humidity - <a id="humidity"></a></li>
+                  <li>💨 Wind - <a id="speed-description"></a></li>
+                  <li></li>
+                </ul>
               </div>
-            </div>
-            <div class="col">
-              <div class="headings">
-                <h1 id="main-city">Odessa</h1>
-                <h2 class="current date"></h2>
+              <div class="col">
+                <div class="degree">
+                  <p class="sky-description" id="sky-description"></p>
+                  <span id="temper" class="temper"></span
+                  ><span class="hight"><a href="#" id="celsius"> °C</a> </span>
+                </div>
               </div>
-            </div>
+              <div class="col">
+                <div class="headings">
+                  <h1 id="main-city">Odessa</h1>
+                  <h2 class="current date"></h2>
+                </div>
+              </div>
 
-            <div class="card-group">
-              <div class="card">
-                <div class="card-body forecast">
-                  <h5 class="card-title">
-                    Saturday <br />
-                    18/06/2022 <br />
-                    🌩️ <br />
-                    26 ℃
-                  </h5>
+              <div class="card-group">
+                <div class="card">
+                  <div class="card-body forecast">
+                    <h5 class="card-title">
+                      Saturday <br />
+                      18/06/2022 <br />
+                      🌩️ <br />
+                      26 ℃
+                    </h5>
+                  </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card-body forecast">
-                  <h5 class="card-title">
-                    Sunday <br />
-                    19/06/2022 <br />
-                    ⛅ <br />24 ℃
-                  </h5>
+                <div class="card">
+                  <div class="card-body forecast">
+                    <h5 class="card-title">
+                      Sunday <br />
+                      19/06/2022 <br />
+                      ⛅ <br />24 ℃
+                    </h5>
+                  </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card-body forecast">
-                  <h5 class="card-title">
-                    Monday <br />
-                    20/06/2022 <br />
-                    ☁️ <br />20 ℃
-                  </h5>
+                <div class="card">
+                  <div class="card-body forecast">
+                    <h5 class="card-title">
+                      Monday <br />
+                      20/06/2022 <br />
+                      ☁️ <br />20 ℃
+                    </h5>
+                  </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card-body forecast">
-                  <h5 class="card-title">
-                    Tuesday <br />
-                    21/06/2022 <br />
-                    ☀️ <br />
-                    32 ℃
-                  </h5>
+                <div class="card">
+                  <div class="card-body forecast">
+                    <h5 class="card-title">
+                      Tuesday <br />
+                      21/06/2022 <br />
+                      ☀️ <br />
+                      32 ℃
+                    </h5>
+                  </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card-body forecast">
-                  <h5 class="card-title">
-                    Wednesday <br />
-                    22/06/2022 <br />
-                    🌧️ <br />26 ℃
-                  </h5>
+                <div class="card">
+                  <div class="card-body forecast">
+                    <h5 class="card-title">
+                      Wednesday <br />
+                      22/06/2022 <br />
+                      🌧️ <br />26 ℃
+                    </h5>
+                  </div>
                 </div>
               </div>
             </div>
